@@ -1,18 +1,20 @@
 <?php
 /*************************************************************************************
- * cadlisp.php
+ * cadlisp-7.php
  * -----------
- * Author: Roberto Rossi (rsoftware@altervista.org)
- * Copyright: (c) 2004 Roberto Rossi (http://rsoftware.altervista.org), Nigel McNie (http://qbnz.com/blog)
+ * Author: John Kaul 
+ * Copyright: (c) 2004 
  * Release Version: 1.0.8.10
  * Date Started: 2004/08/30
  *
  * AutoCAD/IntelliCAD Lisp language file for GeSHi.
  *
- * For AutoCAD V.12..2005 and IntelliCAD all versions.
+ * For the Autolisp language
  *
  * CHANGES
  * -------
+ * 2018/01/23 (John Kaul)
+ *  - Adjusted URLs for help array
  * 2011/12/05 (John Kaul)
  *  - Adjusted Keywords
  *  - Added 3rd-party keywords (opendcl and doslib)
@@ -22,7 +24,7 @@
  * 2004/10/27 (1.0.0)
  *  -  First Release
  *
- * TODO (updated 2011/12/05)
+ * TODO (updated 2018/01/23)
  * -------------------------
  *
  *************************************************************************************
@@ -3286,8 +3288,8 @@ $language_data = array (
             )
         ),
     'URLS' => array(
-     1 => 'http://www.theswamp.org/~john/avlisp/#{FNAMEL}',
-     2 => 'http://www.theswamp.org/~john/avlisp/#{FNAMEL}'
+     1 => $sourcedir . '/doc' . '/avlisp' . '/#{FNAMEL}',
+     2 => $sourcedir . '/doc' . '/avlisp' . '/#{FNAMEL}'
         ),
     'OOLANG' => false,
     'OBJECT_SPLITTERS' => array(
