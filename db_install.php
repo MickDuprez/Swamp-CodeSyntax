@@ -22,8 +22,10 @@ $geshi_default_values =
 		'highlight_lines_extra_style' => '',
 		'language_selector' => 'cadlisp-7:AutoLisp,csharp:C#,vbnet:VB.net,fsharp:F#,python:Python,cpp:C/C++,ruby:Ruby,go:Golang,bash:Bash/Shell,powershell:Powershell,javascript:Javascript,html5:HTML,mysql:MySQL,php:PHP,xml:XML',
 		'line_numbers' => '2',
-		'line_style' => 'padding: 0 5px; background-color: #fff; line-height: 16px; border-bottom: 1px solid #efefef; border-left: 1px solid #999;',
-		'line_style_fancy' => 'padding: 0 5px; background-color: #f9f9f9; line-height: 16px; border-bottom: 1px solid #efefef; border-left: 1px solid #999;',
+		//'line_style' => 'padding: 0 5px; background-color: #fff; line-height: 16px; border-bottom: 1px solid #efefef; border-left: 1px solid #999;',
+        'line_style' => 'padding: 0 5px; background-color: #fff; line-height: 16px; border-left: 1px solid #999;',
+		//'line_style_fancy' => 'padding: 0 5px; background-color: #f9f9f9; line-height: 16px; border-bottom: 1px solid #efefef; border-left: 1px solid #999;',
+        'line_style_fancy' => 'padding: 0 5px; background-color: #fff; line-height: 16px; border-left: 1px solid #999;',
 		'pre_header' => '{CODE}: {LANGUAGE}',
 	);
 
