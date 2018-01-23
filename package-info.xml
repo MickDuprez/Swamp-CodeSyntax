@@ -32,6 +32,7 @@
 
 	<uninstall for="2.*">
 		<remove-dir name="$sourcedir/geshi" />
+                <remove-dir name="$sourcedir/doc" />
 		<remove-file name="$sourcedir/geshi.php" />
 		<modification reverse="true">mod_cb_geshi_mod_languages_utf8.xml</modification>
 		<modification reverse="true">mod_cb_geshi_mod_languages_iso.xml</modification>
