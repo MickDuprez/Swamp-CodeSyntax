@@ -13,6 +13,9 @@
  *
  * CHANGES
  * -------
+ * 2018/01/25 (Mick Duprez)
+ *  - Added global $scripturl tobring it into scope
+ *  - Updated URLS array links
  * 2018/01/23 (John Kaul)
  *  - Adjusted URLs for help array
  * 2011/12/05 (John Kaul)
@@ -46,6 +49,7 @@
  *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
  ************************************************************************************/
+global $scripturl;
 
 $language_data = array (
     'LANG_NAME' => 'Auto/Visual Lisp',
@@ -3288,8 +3292,8 @@ $language_data = array (
             )
         ),
     'URLS' => array(
-     1 => $sourcedir . '/doc' . '/avlisp' . '/#{FNAMEL}',
-     2 => $sourcedir . '/doc' . '/avlisp' . '/#{FNAMEL}'
+     1 => $scripturl . '/../Sources/doc/avlisp' . '/#{FNAMEL}',
+     2 => $scripturl . '/../Sources/doc/avlisp' . '/#{FNAMEL}'
         ),
     'OOLANG' => false,
     'OBJECT_SPLITTERS' => array(

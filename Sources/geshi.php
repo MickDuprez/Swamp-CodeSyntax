@@ -557,8 +557,10 @@ class GeSHi {
      *               {@link GeSHi->set_language_path()}
      * @since 1.0.0
      */
+
     public function __construct($source = '', $language = '', $path = '') {
         if ( is_string($source) && ($source !== '') ) {
+
             $this->set_source($source);
         }
         if ( is_string($language) && ($language !== '') ) {
@@ -4733,3 +4735,5 @@ if (!function_exists('geshi_highlight')) {
         return true;
     }
 }
+?>
+
