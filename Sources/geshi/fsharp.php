@@ -158,6 +158,8 @@ $language_data = array(
             3 => 'color: #5d478b; font-style: italic;' /* light purple */
             ),
         'ESCAPE_CHAR' => array(
+            0 => 'color: #008080; font-weight: bold;',
+            'HARD' => 'color: #008080; font-weight: bold;'
             ),
         'BRACKETS' => array(
             0 => 'color: #6c6;'
