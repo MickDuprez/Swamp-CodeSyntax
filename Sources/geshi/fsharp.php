@@ -166,7 +166,7 @@ $language_data = array(
             ),
         'STRINGS' => array(
             0 => 'color: #3cb371;', /* nice green */
-            'HARD' => 'color: #666666;'
+            'HARD' => 'color: #666666;' /* added from csharp */
            ),
         'NUMBERS' => array(
             0 => 'color: #c6c;' /* pink */
