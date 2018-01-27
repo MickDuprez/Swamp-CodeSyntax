@@ -165,8 +165,9 @@ $language_data = array(
             0 => 'color: #6c6;'
             ),
         'STRINGS' => array(
-            0 => 'color: #3cb371;' /* nice green */
-            ),
+            0 => 'color: #3cb371;', /* nice green */
+            'HARD' => 'color: #666666;'
+           ),
         'NUMBERS' => array(
             0 => 'color: #c6c;' /* pink */
             ),
